@@ -1,0 +1,11 @@
+{
+  "name": "hackadev",
+  "version": "1.0.0",
+  "description": "Projeto HackaDev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="favicon icon" href="/pages/img/favicon.ico" />
+  <link rel="stylesheet" type="text/css" href="/pages/produto/produto.css" />
+  <link rel="stylesheet" type="text/css" href="/pages/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+  <title>Fashionista</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav container">
+      <div class="div-logo">
+        <a href="../../index.html" class="logo"
+          ><img class="logo-navbar" src="/pages/img/logo.png"
+        /></a>
+      </div>
+      <div class="icons-navbar">
+        
+        <div class="popup-carrinho">
+          <a href="/pages/cadastro/registration.html">
+            <i class='bx bx-user' id="user-icone"></i></a>
+          <i class='bx bx-shopping-bag' id="carrinho-icone"></i>
+
+        </div>
+      </div>
+      <div class="cart">
+        <h2 class="cart-title">Seu carrinho</h2>
+        <p>está vazio</p>
+        <div class="total">
+          <div class="total-title">Total</div>
+          <div class="total-price">R$ 0</div>
+        </div>
+        <button type="button" class="btn-buy">Comprar Agora</button>
+        <i class='bx bx-x' id="close-cart"></i>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="produto-body">
+    <div class="showroom container">
+      <div class="produto-imagem">
+        <img class="product-image" src="/pages/img/IMG_14.webp" alt=""></img>
+      </div>
+      <div class="product-descricao">
+        <div class="product-name">
+          <h3><span>Blusa Feminina Gola Alta<br>Malha Canelada Preto</span></h3>
+        </div>
+
+        <div class="price">
+          <span id="product-preco-span">R$ 69,90</span>
+        </div>
+        <span id="product-preco-id">em até 3x R$ 23,30</span>
+        <div class="select">
+          <div class="product-descricao-tamanho">Escolha o tamanho</div>
+          <div class="size-choice">
+            <div class="btn-group">
+              <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off" checked />
+              <label class="btn btn-secondary" for="option1">P</label>
+
+              <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off" />
+              <label class="btn btn-secondary" for="option2">M</label>
+
+              <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off" />
+              <label class="btn btn-secondary" for="option3">G</label>
+            </div>
+          </div>
+          <div class="product-escolhas">
+            <input class="product-escolha-final" type="button" value=" Comprar">
+            <input class="product-escolha-final" type="button" value="Comprar com 1 Clique">
+            <a href="/pages/checkout/checkout.html"><button class="product-escolha-final" value="Finalizar Compra">Finalizar Compra</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <footer>
+    <div class="footer-div">
+      <h2 id="footer-h2">Go Fashion</h2>
+      <div class="content-footer">
+        Copyright©2022-2022,Go Fashion Company. Todos os direitos
+        reservados.
+      </div>
+    </div>
+  </footer>
+    <script src="https://kit.fontawesome.com/81e40cb5df.js" crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+
+
+
+</body>
+
+</html>

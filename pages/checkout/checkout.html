@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="favicon icon" href="/pages/img/favicon.ico" />
+  <link rel="stylesheet" href="/pages/styles.css">
+  <link rel="stylesheet" href="/pages/checkout/checkout.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+  <title>Go Fashion</title>
+</head>
+
+<header>
+  <div class="nav container">
+    <div class="div-logo">
+      <a href="../../index.html" class="logo"><img class="logo-navbar" src="./../img/logo.png"/></a>
+    </div>
+</header>
+
+<body>
+  <section>
+    <div class="checkout-title-products">
+      <div class="request">
+        <div class="request-tittle">Seu Pedido
+        </div>
+      </div>
+      <div class="product-review">
+        <div class="table-review">
+          <div class="checkout-descricao">
+            <div class="checkout-foto">
+              <img class="product-image" src="/pages/img/IMG_01.webp" alt="vestido1" />
+              <img class="product-image" src="/pages/img/IMG_02.webp" alt="vestido2" />
+            </div>
+            <div class="checkout-produto-nome">Nome
+              <div class="checkout-product">VESTIDO CURTO FEMININO
+                EVASÊ UM MARIA </div>
+              <div class="product">VESTIDO LONGO EVASÊ MANGA
+                CURTA DECOTE V</div>
+            </div>
+            <div class="checkout-produto-descricao">Descrição
+              <div class="checkout-attributes"><b>Laranja</b></div>
+              <div class="attributes"><b>Preto</b></div>
+            </div>
+            <div class="checkout-produto-preco">Preço
+              <div class="checkout-prices">R$ 2.519,10</div>
+              <div class="prices">R$ 209,99</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="main">
+      <div class="checkout-dados">
+        <div class="container-voce">
+          <div>
+            <h2>Informações de envio</h2>
+            <div class="checkout-login">
+              <label id="checkout-dados-login">Jose Carlos da Silva</label>
+            </div>
+          </div>
+          <div>
+            <h2>Destino</h2>
+            <div class="destino">
+              <label id="checkout-dados-login">Pça da matriz,174 - Centro, Itaberái - GO - 76630-000</label>
+            </div>
+          </div>
+          <div>
+            <h2>Forma de envio</h2>
+            <div class="checkout-descricao-detalhado">
+              <p><i class='bx bxs-truck'></i>
+                FRETE GRÁTIS* PARA A MODALIDADE RETIRE NA LOJA</p>
+            </div>
+          </div>
+        </div>
+        <div class="forma-de-envio">
+          <div class="container-entrega">
+            <div class="col">
+              <div class="row">
+                <div class="card">
+                  <input name="entrega" type="radio" value="retirada local" class="checkbox">
+                  <label>CLIQUE E RETIRE</label>
+                  <p class="prazo-entrega"> </p>
+                  <p class="preço-frete">Grátis</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="card">
+                  <div class="checkbox"><input name="entrega" type="radio" value="pac">
+                    <label>PAC</label>
+                    <p class="prazo-entrega"></p>
+                  </div>
+                  <p class="preço-frete">R$ 14,90</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="card">
+                  <input name="entrega" type="radio" value="pac" class="checkbox">
+                  <label>SEDEX</label>
+                  <p class="prazo-entrega">Previsão: 5 dias úteis</p>
+                  <p class="preço-frete">R$ 32,90</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="row">
+                <div class="card">
+                  <input name="entrega" type="radio" value="frete gratis" class="checkbox">
+                  <label>MOTOBOY</label>
+                  <p class="prazo-entrega">Previsão: 3 dias úteis</p>
+                  <p class="preço-frete">R$ 12,90</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="card">
+                  <input name="entrega" type="radio" value="retirada proxima" class="checkbox">
+                  <label>LOGGI</label>
+                  <p class="prazo-entrega">Previsão: 6 dias úteis</p>
+                  <p class="preço-frete">R$ 15,90</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="card">
+                  <input name="entrega" type="radio" value="package" class="checkbox">
+                  <label>JADLOG</label>
+                  <p class="prazo-entrega">Previsão: 4 dias úteis</p>
+                  <p class="preço-frete">R$ 24,90</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="atencao"><i class="fa-solid fa-circle-exclamation"></i> Prazo de entrega dos Correios é de cinco
+            dias
+            após a postagem</div>
+          <h4>Observações</h4>
+          <textarea name="observação" cols="60" rows="4" class="observacao"
+            placeholder="Adicione alguma informação relacionada ao seu pedido"></textarea>
+        </div>
+      </div>
+      <div class="responsive">
+        <div class="resume">
+          <table class="resume-table">
+            <tr id="checkout-tr-id">
+              <h3 class="resume-table-tittle">Resumo</h3>
+
+              <td>
+                <div class="sub-total">Sub-total</div>
+              </td>
+              <td>
+                <div class="sub-total">R$ 2.729,09</div>
+              </td>
+            </tr>
+            <tr id="checkout-tr-id">
+              <td>
+                <div class="sub-total">Descontos</div>
+              </td>
+              <td>
+                <div class="sub-total">- R$ 150,00</div>
+              </td>
+            </tr>
+            <tr id="checkout-tr-id">
+              <th rowspan="4">
+                <div class="total-prices">TOTAL DO PEDIDO: </div>
+              </th>
+              <td>
+                <div class="total-prices"><b>R$ 2.579,09</b></div>
+              </td>
+            </tr>
+            <tr id="checkout-tr-id">
+              <td>
+                <div class="sub-total">Em até 10X de R$ 257,91</div>
+              </td>
+            </tr>
+            <tr id="checkout-tr-id">
+              <td>
+                <div class="sub-total">ou R$ 2.579,09 no</div>
+              </td>
+            </tr>
+            <tr id="checkout-tr-id">
+              <td>
+                <div class="sub-total">Pix com 10% de desconto</div>
+              </td>
+            </tr>
+          </table>
+
+          <div class="cupom">
+            <div class="icons-cupom">
+              <img class="cash-back" src="../checkout/img/cashback.png" alt="cash">
+              <td class="offer-text">Você ganha 2.000,00 pontos nesta compra. Aproveite!</td>
+            </div>
+
+            <div class="checkout-codigo-promo">
+              <label for="cupom">Código Promocional</label>
+              <input type="text" id="cupom" name="cupom">
+              <input type="submit" value="Aplicar">
+            </div>
+          </div>
+          <fieldset class="payment">
+            <legend>
+              Como deseja pagar?
+            </legend>
+            <div>
+              <input type="radio" id="ticket" name="payment-button" value="ticket" checked>
+              <i class="fa-solid fa-money-bill-wave"></i>
+              <label>Boleto</label>
+            </div>
+            <div>
+              <input type="radio" id="credit-card" name="payment-button" value="credit-card" checked>
+              <i class="fa-solid fa-credit-card"></i>
+              <label>Cartão de Crédito</label>
+            </div>
+            <div class="checkout-deposito-bank">
+              <input type="radio" id="bank-deposit" name="payment-button" value="bank-deposit" checked>
+              <i class="fa-solid fa-landmark"></i>
+              <label>Depósito bancário</label>
+              <img class="banks" src="../checkout//img/bb.png" alt="bb">
+              <img class="banks" src="../checkout//img/bradesco.png" alt="bra">
+              <img class="banks" src="../checkout//img/itau.png" alt="itau">
+            </div>
+            <div>
+              <input type="radio" id="pix-input" name="payment-button" value="pix-input" checked>
+              <img class="pix-button" src="../checkout/img/pix.png" alt="pix">
+              <label>PIX</label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="button">
+          <div style="height: 100px;">
+            <a href="/concluir-compra.html">
+              <button>Finalizar Compra</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="footer-div">
+      <h2 id="footer-h2">Go Fashion</h2>
+      <div class="content-footer">
+        Copyright©2022-2022,Go Fashion Company. Todos os direitos
+        reservados.
+      </div>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/81e40cb5df.js" crossorigin="anonymous"></script>
+  <script src="/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+</body>
+
+</html>
